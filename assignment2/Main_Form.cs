@@ -31,7 +31,7 @@ namespace assignment2
 
         private void doctorManagementToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Doc_Manag_Form DocManagForm = new Doc_Manag_Form();
+            Doc_Manag_Form DocManagForm = new Doc_Manag_Form(DbConnection);
             DocManagForm.Show();
         }
     }

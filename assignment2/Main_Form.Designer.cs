@@ -3,6 +3,11 @@ namespace assignment2
 {
     partial class Main_Form
     {
+
+        //Database connection information, change the Data Source with your SQL Server name
+        static private string DbConnection = @"Data Source=DESKTOP-1NA41IU\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
+
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -86,6 +91,7 @@ namespace assignment2
 
 
         #endregion
+
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem managementSystemToolStripMenuItem;

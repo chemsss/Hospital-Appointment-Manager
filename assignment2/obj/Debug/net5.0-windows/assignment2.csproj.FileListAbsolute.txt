@@ -24,3 +24,29 @@ D:\ING4 S2\TP C#\Csharp_assignment2\assignment2\bin\Debug\net5.0-windows\runtime
 D:\ING4 S2\TP C#\Csharp_assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\ING4 S2\TP C#\Csharp_assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\ING4 S2\TP C#\Csharp_assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.csproj.CopyComplete
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\assignment2.exe
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\assignment2.deps.json
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\assignment2.runtimeconfig.json
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\assignment2.runtimeconfig.dev.json
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\assignment2.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\assignment2.pdb
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.csproj.AssemblyReference.cache
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.Doc_Manag_Form.resources
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.Main_Form.resources
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.csproj.GenerateResource.cache
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.AssemblyInfoInputs.cache
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.AssemblyInfo.cs
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.csproj.CopyComplete
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\refint\assignment2.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.pdb
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.genruntimeconfig.cache
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\ref\assignment2.dll

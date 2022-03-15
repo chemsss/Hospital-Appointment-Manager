@@ -22,6 +22,15 @@ namespace assignment2
             base.Dispose(disposing);
         }
 
+        //DbConnection
+        private string DbConnection;
+        public Doc_Manag_Form(string dbConnection)
+        {
+            this.DbConnection = dbConnection;
+        }
+
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
