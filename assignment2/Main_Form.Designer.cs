@@ -5,7 +5,7 @@ namespace assignment2
     {
 
         //Database connection information, change the Data Source with your SQL Server name
-        static private string DbConnection = @"Data Source=DESKTOP-1NA41IU\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
+        private string DbConnection = @"Data Source=LAPTOP-VA9S223G\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
 
 
         /// <summary>

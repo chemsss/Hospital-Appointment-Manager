@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace assignment2
 {
@@ -23,12 +24,6 @@ namespace assignment2
         }
 
         //DbConnection
-        private string DbConnection;
-        public Doc_Manag_Form(string dbConnection)
-        {
-            this.DbConnection = dbConnection;
-        }
-
 
 
         #region Windows Form Designer generated code

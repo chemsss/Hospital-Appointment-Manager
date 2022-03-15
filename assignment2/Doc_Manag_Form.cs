@@ -13,8 +13,10 @@ namespace assignment2
 {
     public partial class Doc_Manag_Form : Form
     {
-        public Doc_Manag_Form()
+        public string DbConnection;
+        public Doc_Manag_Form(string dbConnection)
         {
+            DbConnection = dbConnection;
             InitializeComponent();
         }
 
@@ -56,7 +58,7 @@ namespace assignment2
         {
             if (int.TryParse(this.code_textBox.Text, out int value))    //if value of code typed by user is numeric
             {
-                string connection = DbConnection;
+                string connection = @"Data Source=LAPTOP-VA9S223G\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(connection);
 
                 string request = "SELECT * FROM Doctors WHERE DoctorId = " + this.code_textBox.Text;
@@ -99,7 +101,7 @@ namespace assignment2
         {
             if (int.TryParse(this.code_textBox.Text, out int value) && name_textBox.Text!="" && telephone_textBox.Text!="" && (speciality_comboBox.SelectedIndex != -1 || (speciality_comboBox.SelectedIndex == -1 && speciality_comboBox.Text!="") ) )     //if code value is numeric and all fields have been filled in
             {                                                                                                                  // the doctor can either choose an already existing speciality or type a speciality that is not in the database
-                string connection = DbConnection;
+                string connection = @"Data Source=LAPTOP-VA9S223G\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(connection);
 
                 string request = "SELECT * FROM Doctors WHERE DoctorId = " + this.code_textBox.Text;
@@ -153,7 +155,7 @@ namespace assignment2
                 
                 if(MessageBox.Show("Are you sure you want to edit this doctor's information?", "Edit Doctor", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                 {
-                    string connection = DbConnection;
+                    string connection = @"Data Source=LAPTOP-VA9S223G\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
                     SqlConnection conn = new SqlConnection(connection);
 
                     string request = "SELECT * FROM Doctors WHERE DoctorId = " + this.code_textBox.Text;
@@ -210,7 +212,7 @@ namespace assignment2
             {                                                                                
                 if (MessageBox.Show("Are you sure you want to delete this doctor?", "Delete Doctor", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                 {
-                    string connection = DbConnection;
+                    string connection = @"Data Source=LAPTOP-VA9S223G\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
                     SqlConnection conn = new SqlConnection(connection);
 
                     string request = "SELECT * FROM Doctors WHERE DoctorId = " + this.code_textBox.Text;
@@ -264,7 +266,7 @@ namespace assignment2
         private void get_specialities()
         {
 
-            string connection = DbConnection;
+            string connection = @"Data Source=LAPTOP-VA9S223G\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connection);
 
             string request = "SELECT Distinct(DoctorSpecialism) FROM Doctors";
