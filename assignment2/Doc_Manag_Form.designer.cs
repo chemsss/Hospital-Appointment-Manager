@@ -40,7 +40,7 @@ namespace assignment2
             this.name_label = new System.Windows.Forms.Label();
             this.name_textBox = new System.Windows.Forms.TextBox();
             this.telephone_label = new System.Windows.Forms.Label();
-            this.telephone_textBox = new System.Windows.Forms.TextBox();
+            this.telephone_textBox = new System.Windows.Forms.MaskedTextBox();
             this.hiringDate_label = new System.Windows.Forms.Label();
             this.hiringDate_dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.speciality_label = new System.Windows.Forms.Label();
@@ -128,6 +128,8 @@ namespace assignment2
             this.telephone_textBox.Location = new System.Drawing.Point(114, 147);
             this.telephone_textBox.Name = "telephone_textBox";
             this.telephone_textBox.Size = new System.Drawing.Size(100, 23);
+            this.telephone_textBox.MaxLength = 10;
+            this.telephone_textBox.Mask = "0000000000";
             this.telephone_textBox.TabIndex = 5;
             // 
             // hiringDate_label
@@ -146,7 +148,6 @@ namespace assignment2
             this.hiringDate_dateTimePicker.Name = "hiringDate_dateTimePicker";
             this.hiringDate_dateTimePicker.Size = new System.Drawing.Size(200, 23);
             this.hiringDate_dateTimePicker.TabIndex = 7;
-            this.hiringDate_dateTimePicker.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // speciality_label
             // 
@@ -156,7 +157,6 @@ namespace assignment2
             this.speciality_label.Size = new System.Drawing.Size(57, 15);
             this.speciality_label.TabIndex = 8;
             this.speciality_label.Text = "Speciality";
-            this.get_specialities();
             // 
             // speciality_comboBox
             // 
@@ -166,6 +166,7 @@ namespace assignment2
             this.speciality_comboBox.Size = new System.Drawing.Size(121, 23);
             this.speciality_comboBox.TabIndex = 9;
             this.speciality_comboBox.TabIndex = 9;
+            this.get_specialities();
             // 
             // new_btn
             // 
@@ -250,7 +251,7 @@ namespace assignment2
         private Label name_label;
         private TextBox code_textBox;
         private Label code_label;
-        private TextBox telephone_textBox;
+        private MaskedTextBox telephone_textBox;
         private Label telephone_label;
         private DateTimePicker hiringDate_dateTimePicker;
         private Label hiringDate_label;

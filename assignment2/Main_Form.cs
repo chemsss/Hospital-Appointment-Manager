@@ -31,10 +31,41 @@ namespace assignment2
 
         private void doctorManagementToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string test = DbConnection;
-            doctorManagementToolStripMenuItem.Text = DbConnection;
-            Doc_Manag_Form DocManagForm = new Doc_Manag_Form("2"/*this.DbConnection*/);
+            Doc_Manag_Form DocManagForm = new Doc_Manag_Form(this.DbName);
             DocManagForm.ShowDialog();
+        }
+
+        private void patientManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Patient_Manag_Form PatientManagForm = new Patient_Manag_Form(this.DbName);
+            PatientManagForm.ShowDialog();
+        }
+
+        private void appointmentManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Appoint_Manag_Form AppointManagForm = new Appoint_Manag_Form(this.DbName);
+            AppointManagForm.ShowDialog();
+        }
+
+        private void showAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Show_All_Form ShowManagForm = new Show_All_Form(this.DbName);
+            ShowManagForm.ShowDialog();
+        }
+
+        private void searchAppointmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Search_Appoint_Form SearchAppointForm = new Search_Appoint_Form(this.DbName);
+            SearchAppointForm.ShowDialog();
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to leave the application?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

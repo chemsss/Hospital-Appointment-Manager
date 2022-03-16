@@ -50,3 +50,7 @@ C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\refin
 C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.pdb
 C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.genruntimeconfig.cache
 C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\ref\assignment2.dll
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.Patient_Manag_Form.resources
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.Appoint_Manag_Form.resources
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.Show_All_Form.resources
+C:\Users\Chems\Desktop\C#\assignment2\assignment2\obj\Debug\net5.0-windows\assignment2.Search_Appoint_Form.resources

@@ -4,6 +4,18 @@
     <Compile Update="Doc_Manag_Form.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Appoint_Manag_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Search_Appoint_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Show_All_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Patient_Manag_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Main_Form.cs">
       <SubType>Form</SubType>
     </Compile>
